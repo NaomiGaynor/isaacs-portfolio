@@ -1,0 +1,78 @@
+doctype
+html
+  head
+    link(rel="stylesheet" href="/main.css")
+    link(rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css")
+    meta(charset= 'UTF-8')
+    meta(name= 'viewport' content= "width=device-width, initial-scale =1")
+    title #{ title }
+  body
+    .container
+      .nav-bar
+        ul
+          li
+            h3.title 
+              a(target="_blank" href='#') #{ title }
+          li
+            h3 - 
+          li
+            h3
+              a(target="_blank" href='#') News  
+          li
+            h3  -
+          li
+            h3
+              a(target="_blank" href='#') Shop
+          li
+            h3 -
+          li
+            h3
+              a(target="_blank" href='#') Blog
+      .project-list
+        ul
+          li
+            h6
+              a(target-="_blank" href='#') La petite maison 
+        ul
+          li
+            h6
+              a(target-="_blank" href='#') It's not you 
+        ul
+          li
+            h6
+              a(target-="_blank" href='#') melon
+        ul
+          li
+            h6
+              a(target-="_blank" href='#') razor
+        ul
+          li
+            h6
+              a(target-="_blank" href='#') Don't eat friend
+        ul
+          li
+            h6
+              a(target-="_blank" href='#') Hunter
+        ul
+          li
+            h6
+              a(target-="_blank" href='#') La putita
+        ul
+          li
+            h6
+              a(target-="_blank" href='#') showreel
+      != yield
+      #footer
+        h3 connect 
+        p If you are interested in working togeter 
+        P Please get in touch.
+        a(href= "mailto:") isaac@imanillustrator.com
+        ul
+          li
+            a(target = '_blank' href='twitter') Twitter
+          li 
+            i.fa.fa-circle 
+          li
+            a(target = '_blank' href = 'linkedIn') LinkedIn
+    script(src= "https://code.jquery.com/jquery-1.11.2.min.js") 
+    script(src="js/toggle-visability.js")
