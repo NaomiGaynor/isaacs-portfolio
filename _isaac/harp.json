@@ -1,0 +1,14 @@
+{
+	"globals": {
+		"title": "Isaac Holland", 
+		"name": "Isaac Holland", 
+		"errormessage": "Whoops, I'm afraid we can't find what you're looking for",
+		"contact": {
+			"email": "", 
+			"twitter": "",
+			"instagram":"" , 
+			"dribbble":"",
+			"vimeo":""
+		}
+	}
+}
