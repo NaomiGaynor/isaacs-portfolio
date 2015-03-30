@@ -122,12 +122,21 @@ a{
     list-style: none;
     li {
       display: inline-block;
-      margin: 0px, 10px, 10px, 0px;
+      margin: 0px 10px 10px 0px;
       a{
+        display: inline-block;
         width: 35px; 
         height: 35px;
         border-radius: 50%;
-        background: #333 
+        background: #333;
+        i{
+          color: #EEE;
+          margin: 15% 0 0 15%;
+          font-size: 1.5em;
+        }
+      } 
+      a:hover{
+        background: #E6B8E6; 
       }
     }
   }
