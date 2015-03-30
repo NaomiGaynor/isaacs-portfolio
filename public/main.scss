@@ -115,16 +115,21 @@ a{
 }
 
 #footer {
-  position: relative;
-  background-color: #333;
-  h3{
-    color: #E6B8E6;
-  }
-  p{
-    color: white;
-  }
-  li {
-    display: inline;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  #social-icons{
+    list-style: none;
+    li {
+      display: inline-block;
+      margin: 0px, 10px, 10px, 0px;
+      a{
+        width: 35px; 
+        height: 35px;
+        border-radius: 50%;
+        background: #333 
+      }
+    }
   }
 }
 
