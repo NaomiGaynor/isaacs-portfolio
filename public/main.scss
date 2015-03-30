@@ -156,20 +156,31 @@ a{
     width: 80%;
     margin-top: 10px;
     margin-left: 70px;
+    margin-right: 70px;
     opacity: 1;
     .popup-container {
+      h6 {
+        padding-bottom: 50px;
+      }
+      border-bottom: 50px;
+      margin-right: 70px; 
+      margin-bottom: 100px; 
+      position:absolute;
+      overflow:scroll;
       text-align: center;
-      overflow-y: auto;
       background-color: #FFF;
       opacity: 1;
       border-radius: 4px;
       padding: 20px;
+      max-height: 100%;
       .close-window {
         text-align: right;
-        //right: 0;
+        position: fixed;
+        font-weight: 400;
       }
       img {
         left: 0px;
+        width: 80%;
       }
     }
   }
