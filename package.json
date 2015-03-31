@@ -1,0 +1,26 @@
+{
+  "name": "isaacs-portfolio",
+  "version": "1.0.0",
+  "description": "Portfollio of Isaac Holladns work ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "harp": "*"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NaomiGaynor/isaacs-portfolio.git"
+  },
+  "author": "Naomi Gaynor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NaomiGaynor/isaacs-portfolio/issues"
+  },
+  "homepage": "https://github.com/NaomiGaynor/isaacs-portfolio"
+}
