@@ -7,3 +7,11 @@ function toggle_visability(id){
 	toggle.style.display == 'block' ? toggle.style.display = 'none': toggle.style.display = 'block';
 	
 }
+
+document.getElementById('title').addEventListener('click', function(){
+	document.getElementById('about-wrapper').style.height = "350px";
+});
+
+document.getElementById('close-slidedown').addEventListener('click', function(){
+	document.getElementById('about-wrapper').style.height = "0px";
+})
