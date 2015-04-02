@@ -64,6 +64,26 @@ a{
   }
 }
 
+#about-wrapper {
+  transition: height 1s ease-out;
+  height:0;
+  overflow: hidden;
+  .personal-info {
+    background: #333;
+    margin-top: 56px; 
+    color:white;
+    width:80%;
+    height:200px;
+    padding:20px;
+    a{
+      color: white;
+    }
+    a:hover {
+      color: #E6B8E6;
+    }
+  }
+}
+
 .project-list {
   background-color: #EEE;
   opacity: 0.7;
@@ -210,11 +230,31 @@ a{
 }
 
 @media(max-width: 440px) {
-  .navbar-list {
-    width: 100vw;
+  .nav-bar {
+    width: 100%;
     li {
       display: block;
       letter-spacing: 0.2em;
     }
   }
+  .project-list {
+    margin-top: 112px;
+  }
+  #about-wrapper{
+    width: 100%;
+    .personal-info {
+      z-index: 99;
+      margin-top: 112px;
+    }
+  }
+  // #about-wrapper{
+  //   .personal-info {
+  //     margin-top: 187px;
+  //     background: #333;
+  //     color:white;
+  //     width:80%;
+  //     height:200px;
+  //     padding:20px;
+  //   }
+  // }
 }
