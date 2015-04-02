@@ -9,7 +9,7 @@ function toggle_visability(id){
 }
 
 document.getElementById('title').addEventListener('click', function(){
-	document.getElementById('about-wrapper').style.height = "350px";
+	document.getElementById('about-wrapper').style.height = "316px";
 });
 
 document.getElementById('close-slidedown').addEventListener('click', function(){
