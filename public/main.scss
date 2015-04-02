@@ -68,6 +68,7 @@ a{
   transition: height 1s ease-out;
   height:0;
   overflow: hidden;
+  background: #333;
   .personal-info {
     background: #333;
     margin-top: 56px; 
@@ -243,7 +244,6 @@ a{
   #about-wrapper{
     width: 100%;
     .personal-info {
-      z-index: 99;
       margin-top: 112px;
     }
   }
